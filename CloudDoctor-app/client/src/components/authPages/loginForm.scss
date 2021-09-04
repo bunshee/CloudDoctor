@@ -1,0 +1,158 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(228, 250, 251, 1);
+
+  &:before {
+    content: "";
+    position: absolute;
+    background: url("../images/doc.jpg");
+    background-size: cover;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+.insc {
+  box-shadow: -3px 23px 25px 1px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: -3px 23px 25px 1px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: -3px 23px 25px 1px rgba(0, 0, 0, 0.53);
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 1);
+  height: 420px;
+  width: 300px;
+  display: block;
+}
+
+.info {
+  font-family: inherit;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid gray;
+  outline: 0;
+  font-size: 0.8rem;
+  color: gray;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+  &:focus {
+    padding-bottom: 6px;
+    font-size: large;
+    font-weight: 500;
+    border-width: 3px;
+    color: #0a6688;
+    border-image: linear-gradient(to right, #0D6686, #86DCFC);
+    border-image-slice: 1;
+
+    &::-webkit-input-placeholder {
+      color: #0D6686;
+    }
+  }
+}
+
+.Inscr {
+  font-size: 15px;
+  font-weight: 100;
+  padding: 0.3em 1.2em;
+  display: block;
+  text-decoration: none;
+  margin: 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #0D6686;
+  text-align: center;
+  color: white;
+
+  &:hover {
+    font-size: 15px;
+    font-weight: 100;
+    padding: 0.3em 1.2em;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #0c8fa6;
+    text-align: center;
+    color: white;
+    display: block;
+  }
+}
+
+#inscp {
+  color: #404040;
+  font-size: 10px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 15px;
+  font-size: 12px;
+  color: gray;
+
+  &::before, &::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid gray;
+  }
+
+  &:not(:empty) {
+    &::before {
+      margin-right: .25em;
+    }
+
+    &::after {
+      margin-left: .25em;
+    }
+  }
+}
+
+#connect {
+  color: #0D6686;
+  font-weight: 100;
+  display: block;
+  background-color: white;
+  border-color: #0D6686;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 0.3em 1.2em;
+  border-radius: 4px;
+  width: 260px;
+  box-sizing: border-box;
+
+  &:hover {
+    color: white;
+    font-weight: 100;
+    display: block;
+    background-color: #0D6686;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 0.3em 1.2em;
+    border-radius: 4px;
+    width: 260px;
+    box-sizing: border-box;
+  }
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+  size: 100px;
+  margin: 25px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.tlogo {
+  margin: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,61 @@
+.mdivapp {
+    box-shadow: -3px 23px 25px 1px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: -3px 23px 25px 1px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: -3px 23px 25px 1px rgba(0, 0, 0, 0.53);
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    margin : 20px;
+    
+    display :block;
+
+}
+.mdivapp:hover{
+    -webkit-animation: floating-text 2s ease alternate infinite;
+    -moz-animation: floating-text 2s ease alternate infinite;
+    -ms-animation: floating-text 2s ease alternate infinite;
+    -o-animation: floating-text 2s ease alternate infinite;
+    animation: floating-text 2s ease alternate infinite;
+}
+.divapp{
+    margin:15px;
+    color: transparent;
+    background: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    display: -moz-inline-box;
+    *display: inline; /* For IE7 */
+    zoom: 1; /* Trigger hasLayout */
+    width: 90%;
+    text-align: center;
+
+
+ 
+}
+
+.divapp h1{
+    font-size: 30px;
+}
+.divapp p {
+    font-size: 15px;
+    margin:6.5px;
+    color: black;
+    
+}
+
+.divapp span {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    word-spacing: 2px;
+    text-transform: none;
+    color:#0a6688;
+    
+
+}
+.docpat{
+    display:inline-flex;
+}
+

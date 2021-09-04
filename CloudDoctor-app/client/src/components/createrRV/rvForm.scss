@@ -1,0 +1,99 @@
+.rvMainDiv{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(201, 229, 252, 0.781);
+}
+
+.rvDiv{
+  box-shadow: -3px 23px 25px 1px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: -3px 23px 25px 1px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: -3px 23px 25px 1px rgba(0, 0, 0, 0.53);
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 1);
+  height: 100%;
+  width: 350px;
+  display: table-caption;
+  margin-top: 30%;
+}
+
+.rvHeader{
+    font-size: 22px;
+    text-align: center;
+    color: transparent;
+    background: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+    margin: 2px;
+}
+
+.rvSpan{
+    color: #737373;
+    font-size: 18px;
+    color: #157BA1;
+    margin-bottom: 10px;
+}
+
+.rvFormInput{
+    font-family: inherit;
+    width: 80%;
+    border: 0;
+    border-bottom: 1px solid gray;
+    outline: 0;
+    font-size: 0.8rem;
+    color: gray;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  
+    &:focus {
+      padding-bottom: 6px;
+      font-weight: 500;
+      font-size: large;
+      border-width: 3px;
+      color: #0a6688;
+      border-image: linear-gradient(to right, #0D6686, #86DCFC);
+      border-image-slice: 1;
+  
+      &::-webkit-input-placeholder {
+        color: #0D6686;
+      }
+    }
+  }
+
+  .rvSubmit{
+    color: #0D6686;
+    font-weight: 100;
+    display: block;
+    background-color: white;
+    border-color: #0D6686;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 0.3em 1.2em;
+    border-radius: 4px;
+    width: 290px;
+    box-sizing: border-box;
+    margin: 20px;
+  
+    &:hover {
+      color: white;
+      font-weight: 100;
+      display: block;
+      background-color: #0D6686;
+      font-size: 15px;
+      font-weight: 100;
+      padding: 0.3em 1.2em;
+      border-radius: 4px;
+      width: 290px;
+      box-sizing: border-box;
+    }
+  }
+  .notify:first-child{
+    margin-top:50px;
+  }

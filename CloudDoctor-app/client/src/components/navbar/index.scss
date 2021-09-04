@@ -1,0 +1,118 @@
+.navDIV {
+    background: rgb(144, 198, 218);
+    background-image: linear-gradient(to left bottom, #3271c4, #447ccf, #5388da, #6293e5, #709ff0, #6da9f6, #6bb2fb, #6bbbff, #5ec3fe, #56cbfc, #55d2f8, #5bd8f2);
+    text-align: center;
+    box-shadow: -6px 2px 40px 0px rgba(0, 0, 0, 0.52);
+    -webkit-box-shadow: -6px 2px 40px 0px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: -6px 2px 40px 0px rgba(0, 0, 0, 0.52);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navLOGO {
+    height: 60px;
+    width: 120px;
+  }
+  
+  .logos {
+    height: 50px;
+    width: 50px;
+    display: block;
+  }
+  
+  #text {
+    font-family: inherit;
+    margin-left: 50px;
+    margin-right: 0;
+    width: 500px;
+    border: 1px solid gray;
+    outline: 0;
+    font-size: 0.8rem;
+    color: gray;
+    padding: 7px 0;
+    background: white;
+    transition: border-color 0.2s;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+  
+    &:focus {
+      border-color: #0a6688;
+      padding-bottom: 6px;
+      color: #0a6688;
+  
+      &::-webkit-input-placeholder {
+        color: #0D6686;
+      }
+    }
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .vertical {
+    display: inline-block;
+  }
+  
+  .transparent {
+    text-decoration: none;
+  }
+  
+  #leftV {
+    margin: 10px;
+  }
+  
+  .text {
+    font-size: 18px;
+  }
+  
+  .textS {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+  
+    &:hover {
+      text-align: center;
+      color: transparent;
+      background: #032f697e;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      text-shadow: 0px 2px 2px rgba(118, 159, 247, 0.37);
+    }
+  }
+  
+  #ST {
+    font-family: inherit;
+    margin-left: 0;
+    margin-right: 20px;
+    width: 50px;
+    border: 1px solid gray;
+    outline: 0;
+    font-size: 0.8rem;
+    color: gray;
+    padding: 7px 0;
+    background: rgb(64, 133, 212);
+    transition: border-color 0.2s;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    &:hover{
+      background: rgb(20, 124, 243);
+    }
+    &:active{
+      background: rgb(28, 87, 155);
+    }
+  }

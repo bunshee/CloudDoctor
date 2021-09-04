@@ -1,0 +1,17 @@
+.MButt{
+	color: #494949 !important;
+	text-transform: uppercase;
+	background: #ffffff;
+	padding: 10px;
+	border: 2px solid #494949 !important;
+	border-radius: 6px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+    margin:10px;
+ &:hover{
+    color: #0a6688 !important;
+	border-radius: 50px;
+	border-color: #0a6688 !important;
+	transition: all 0.3s ease 0s;
+}
+}
